@@ -4,6 +4,7 @@
 }
 body{
 	background-color: #005AA3;
+
 }
 .header{
 	border-bottom: solid 1px #378CCD;
@@ -27,21 +28,28 @@ h6{
 	background-color: white;
 	margin: 0 auto;
 	margin-top: 1.75%;
-	
+	max-height: auto;
 
 }
 .top{
 	display: flex;
+	max-width: 90%;
+	max-height: auto;
 }
 .pic{
 	padding: 2%;
+	max-width: 100%;
+	max-height: auto;
 
 }
 .word-links{
-	padding-left: 4.5%;
+	margin-left: 5%;
 	padding-top: 5%;
 	font-family: arial;
 	text-decoration: none;
+	
+}
+
 }
 .light-blue{
 	color: #00A3D3;
@@ -50,12 +58,16 @@ h6{
 	color: #004F89;
 }
 .body-pic{
-	padding-left: 3%;
+	padding-left: 2%;
 	padding-bottom: 8%;
+	max-height: auto;
+	max-width: 96%;
 }
 .family-pic{
-	padding-left: 3%;
+	padding-left: 2%;
 	padding-bottom: 1%;
+	max-height: auto;
+	max-width: 96%;
 }
 .flex-row{
 	display: flex;
@@ -64,6 +76,8 @@ h6{
 }
 .row-pic{
 	padding-bottom: 3%;
+	max-height: auto;
+	max-width: 95%;
 
 }
 .wrap{
@@ -113,13 +127,17 @@ h6{
 	font-size: 13px
 }
 .video{
-	padding-left: 3%;
-	padding-top: 5%;
+	padding-left: 2%;
+	padding-top: 2%;
+	max-height: auto;
+	max-width: 96%;
 }
 .footer{
 	display: flex;
 	justify-content: center;
-	
+	max-height: auto;
+	max-width: 70%;
+	padding-left: 15%;
 
 }
 .footer-text{
@@ -128,6 +146,7 @@ h6{
 	font-size: 9px;
 	letter-spacing: 1px;
 	text-decoration: none;
+
 }
 .padding{
 	padding-left: 3%;
